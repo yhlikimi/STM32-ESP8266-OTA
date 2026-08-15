@@ -9,7 +9,7 @@
 	
 	
 	
-								
+	请自己配置MQTT参数，项目使用阿里云				
 	
 
 */
@@ -42,17 +42,20 @@ static uint16_t mqtt_dma_pos = 0;
 SemaphoreHandle_t xMqttDataSemaphore = NULL;
 SemaphoreHandle_t xEsp8266TxMutex = NULL;
 	
-// MQTT 连接参数： 	
+// MQTT 连接参数：请自己配置 	
 
-const char *PRODUCT_KEY="h8sfOvOnleu";
-const char *DEVICE_NAME="data";       //"demo";
+const char *PRODUCT_KEY="*********************";
+const char *DEVICE_NAME="****************";       //"demo";
 
-const char *SSID="huahua";
-const char *SSID_PASSWD="yhlikimi";
-const char *USERNAME="data&h8sfOvOnleu";
-const char *PASSWD="7254654997592deb69b4023188afacc03f555103ffda2bffd40bbbda22d68017";
-//","前面加了转义字符"\"
-const char *CLIENTID="h8sfOvOnleu.data|securemode=2\\,signmethod=hmacsha256\\,timestamp=1786009932394|";
+const char *SSID="************";
+const char *SSID_PASSWD="***************";
+const char *USERNAME="********************";
+const char *PASSWD="**********************************";
+//","前面加了转义字符"\\"
+const char *CLIENTID="*********************************";
+
+
+
 const char *MQTTHOSTURL="iot-06z00i93m2wm64q.mqtt.iothub.aliyuncs.com";
 
 //topic id
