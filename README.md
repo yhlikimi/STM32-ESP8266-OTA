@@ -63,6 +63,7 @@ flowchart LR
 ## MQTT 与云端功能
 
 项目使用的主要 Topic 如下，其中 `${ProductKey}` 和 `${DeviceName}` 需要替换为实际设备信息。
+请修改esp8266.c 中修改为自己的阿里云平台的定义的参数
 
 | 功能 | Topic |
 | --- | --- |
