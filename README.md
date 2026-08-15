@@ -1,0 +1,2 @@
+# STM32-ESP8266-OTA
+基于正点原子STM32F103精英板子和ESP32,移植FreeRTOS和LVGL实现，数据采集，OTA升级
